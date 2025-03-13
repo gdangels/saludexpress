@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Salud exprés - Ubicaciones</title>
+</head>
+<body>
+    <div>
+        <header>
+        <img src="portada.png" alt="portada">
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre nosotros</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="contact.html">Escríbenos</a></li>
+                    <li><a href="locations.html">Ubicación</a></li>
+                </ul>
+            </nav>
+        </header>
+            <h2>Ubicación</h2>
+            <h4></h4>
+            <aside >
+            <iframe class="map-frame" src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.823143578333!2d-90.5285083249729!3d14.552104078262316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a41d5e0af557%3A0x32b9daae7ecccc2a!2sCruz%20Verde!5e0!3m2!1ses!2sgt!4v1740760594725!5m2!1ses!2sgt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+            <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30889.638916599873!2d-90.60048222541808!3d14.58739923614862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1007902b3e9%3A0x3414cb237bb7d655!2sFarmacia%20Cruz%20Verde!5e0!3m2!1ses!2sgt!4v1741019288698!5m2!1ses!2sgt width=" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </aside>
+        <footer>
+            <p>Salud exprés - 2025 ©Angel Galdamez. <br> saludexpress@contact.org</p>
+        </footer>
+        </div>
+</body>
+</html>
