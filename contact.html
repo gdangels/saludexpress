@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Salud exprés - Ubicaciones</title>
+</head>
+<body>
+    <div>
+        <header>
+        <img src="portada.png" alt="portada">
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre nosotros</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="contact.html">Escríbenos</a></li>
+                    <li><a href="locations.html">Ubicación</a></li>
+                </ul>
+            </nav>
+        </header>
+            <h2>Contáctanos enviando tu información aquí</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+            
+        <footer>
+            <p>Salud exprés - 2025 ©Angel Galdamez. <br> saludexpress@contact.org</p>
+            <h2>E-mail: saludexpress</h2>
+        </footer>
+        </div>
+</body>
+</html>
