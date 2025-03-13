@@ -1,0 +1,134 @@
+nav {
+    background-color: #3a5a40; /* Color de fondo */
+    text-align: center; /* Centrar el contenido */
+    padding: 10px 0; /* Espaciado vertical */
+
+}
+nav ul {
+    list-style-type: none; /* Quitar viñetas */
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline; /* Mostrar elementos en línea */
+    margin: 0 15px; /* Espaciado horizontal */
+}
+nav ul li a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado */
+    font-weight: bold; /* Texto en negrita */
+}
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+h2 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #344e41;
+}
+
+body {
+    background-color:rgba(106, 142, 35, 0.486);
+}
+
+.nav-bar {
+    width: 851px; /* Ajusta el ancho de la barra de navegación */
+    max-width: 851px; /* Asegura que la barra de navegación no exceda el ancho del contenedor */
+}
+
+div {
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 50px;
+    max-width: 851px;
+    border-radius: 10px;  
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #344e41;
+    background-color: #a3b18a;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.content {
+    display: flex; /* Aplicar diseño de flexbox */
+    gap: 20px; /* Espacio entre section y aside */
+}
+
+section {
+    flex: 3; /* Ajustar el tamaño de la sección */
+}
+
+aside {
+    flex: 1; /* Ajustar el tamaño del aside */
+    background-color: #588157; /* Color de fondo del aside */
+    color: #ffffff;
+    padding: 20px; /* Espaciado interno del aside */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: justify;
+    /* text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white; /* Borde negro delgado */
+}
+
+img {
+    border-radius: 10px;
+}
+
+.contenido {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #344e41;
+    font-weight: bolder;
+}
+
+.map-frame {
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente */
+    font-weight: bolder;
+}
+
+form {
+    background-color: #344e41;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto; /* Centrar el formulario */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el formulario */
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #588157;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #a3b18a;
+}
